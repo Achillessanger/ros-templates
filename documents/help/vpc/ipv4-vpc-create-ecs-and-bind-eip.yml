@@ -3,12 +3,7 @@ Description:
   en: Create an IPv4 VPC, and bind ECS with EIP.
   zh-cn: 搭建一个具有IPv4地址块的专有网络，并为专有网络中的云服务器ECS实例绑定一个弹性公网IP。
 Parameters:
-  ZoneId:
-    Type: String
-    Label:
-      en: VPC Zone
-      zh-cn: VPC支持的可用区
-    AssociationProperty: ALIYUN::VPC::Zone::ZoneId
+  
   EcsSystemDiskCategory:
     Type: String
     Label:

@@ -2,7 +2,6 @@ project:
   name: test-ipv4-vpc-create-ecs-and-bind-eip
   regions:
     - cn-hangzhou
-     - cn-beijing
   oss_config:
     bucket_name: test-yx-hangzhou
     bucket_region: cn-hangzhou

@@ -1,7 +1,7 @@
-ROSTemplateFormatVersion: '2015-09-01'
+qieROSTemplateFormatVersion: '2015-09-01'
 Description:
   en: Create an IPv4 VPC, and bind ECS with EIP.
-  zh-cn: 搭建一个具有IPv4地址块的专有网络，并为专有网络中的云服务器ECS实例绑定一个弹性公网IP。
+  zh-cn: 搭建一个具有IPv4地址块的专有网络，且为专有网络中的云服务器ECS实例绑定一个弹性公网IP。
 Parameters:
   
   EcsSystemDiskCategory:

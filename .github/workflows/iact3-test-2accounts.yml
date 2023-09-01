@@ -35,14 +35,6 @@ jobs:
         echo "changed_files=$(git --no-pager diff --name-only FETCH_HEAD $(git merge-base FETCH_HEAD master)  | xargs)" >> $GITHUB_OUTPUT
         echo $(git --no-pager diff --name-only FETCH_HEAD $(git merge-base FETCH_HEAD master)  | xargs)
 
-    - name: Test templates
-      uses: aliyun/alibabacloud-ros-tool-iact3@master
-      with:
-        templates: ${{ steps.changed-templates.outputs.changed_files }}
-        access_key_id: ${{ secrets.ACCESS_KEY_ID }}
-        access_key_secret: ${{ secrets.ACCESS_KEY_SECRET }}
-        type: ${{ steps.white-list.outputs.type }}
-      id: test-templates
 
     - name: Test templates
       uses: aliyun/alibabacloud-ros-tool-iact3@master

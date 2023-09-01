@@ -1,4 +1,4 @@
-name: iact3-test
+name: iact3-test-and-validate
 
 on:
   pull_request_target:

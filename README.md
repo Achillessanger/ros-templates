@@ -434,6 +434,7 @@ Examples and best practices of ROS templates. The templates are categorized as f
 |--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [use-function-compute-to-deploy-stable-diffusion-for-AI-painting.yml](documents/solution/ai/use-function-compute-to-deploy-stable-diffusion-for-ai-painting.yml) | Use Function Compute to deploy Stable Diffusion for AI Painting. Custom models is supported. |
 | [lingjun-LLAMA-2-best-practice.yml](documents/solution/ai/lingjun-LLAMA-2-best-practice.yml) | LingJun LLAMA-2 Best Practice.                                                               |
+| [pai-ai-painting-solution.yml](documents/solution/ai/pai-ai-painting-solution.yml)                                                                     | PAI AI painting solution |
 | [pai-lingjun-serverless-LLM-best-practice.yml](documents/solution/ai/pai-lingjun-serverless-LLM-best-practice.yml) | PAI LingJun Serverless LLM Best Practice.                                                    |
 | [aigc-text-generation-3d-model-with-ecs.yml](documents/solution/ai/aigc-text-generation-3d-model-with-ecs.yml) | AIGC Text Generation 3D Model.                                                               |
 | [use-pai-to-deploy-stable-diffusion-for-AI-painting.yml](documents/solution/ai/use-pai-to-deploy-stable-diffusion-for-AI-painting.yml) | How to quickly start Stable Diffusion on Alibaba Cloud and easily play with AI painting.     |
@@ -444,12 +445,13 @@ Examples and best practices of ROS templates. The templates are categorized as f
 
 - data-analysis
 
-| Template                                                                                                              | Description       |
-|-----------------------------------------------------------------------------------------------------------------------|-----------------|
-| [flink-hologres-data-warehouse.yml](./documents/solution/data-analysis/flink-hologres-data-warehouse.yml)             | Build real-time warehouse based on Flink+Hologres. |
-| [flink-maxcompute-data-warehouse.yml](./documents/solution/data-analysis/flink-maxcompute-data-warehouse.yml)         | Build real-time data warehouse and realize query acceleration. |
+| Template                                                                                                              | Description                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [flink-hologres-data-warehouse.yml](./documents/solution/data-analysis/flink-hologres-data-warehouse.yml)             | Build real-time warehouse based on Flink+Hologres.                                                                |
+| [flink-maxcompute-data-warehouse.yml](./documents/solution/data-analysis/flink-maxcompute-data-warehouse.yml)         | Build real-time data warehouse and realize query acceleration.                                                    |
 | [leaderboard-gamer-points-app-deploy.yml](./documents/solution/data-analysis/leaderboard-gamer-points-app-deploy.yml) | Use the Centos7 system to create an ECS instance and install and deploy the Gamer Points Leaderboard application. |
-| [user-operations-analytics.yml](./documents/solution/data-analysis/user-operations-analytics.yml) | User operation analysis practice based on AnalyticDB MySQL Lakehouse Edition. |
+| [user-operations-analytics.yml](./documents/solution/data-analysis/user-operations-analytics.yml)                     | User operation analysis practice based on AnalyticDB MySQL Lakehouse Edition.                                     |
+| [cloud-native-enterprise-data-lake.yml](./documents/solution/data-analysis/cloud-native-enterprise-data-lake.yml)     | Cloud-native enterprise data lake.                                                                                |
 
 - database
 
